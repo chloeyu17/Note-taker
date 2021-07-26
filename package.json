@@ -10,12 +10,13 @@
         "client": "npm start --prefix client",
         "clientinstall": "npm install --prefix client",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client" 
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
     },
     "author": "Chloe Yu",
     "license": "ISC",
     "dependencies": {
         "express": "^4.16.4",
+        "mysql": "^2.18.1",
         "uuid": "^8.3.0"
     }
 }
