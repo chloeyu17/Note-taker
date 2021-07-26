@@ -48,6 +48,7 @@ module.exports = function (app) {
         response.json(data);
     });
 
+
     // API DELETE request
     app.delete("/api/notes/:id", (request, response) => {
 
