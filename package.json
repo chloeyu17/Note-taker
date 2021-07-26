@@ -4,19 +4,13 @@
     "description": "Note Taker app built with Express.js",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "server": "nodemon server.js",
-        "client": "npm start --prefix client",
-        "clientinstall": "npm install --prefix client",
-        "dev": "concurrently \"npm run server\" \"npm run client\"",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Chloe Yu",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.16.4",
-        "mysql": "^2.18.1",
-        "uuid": "^8.3.0"
+      "express": "^4.16.4",
+      "uuid": "^8.3.0"
     }
-}
+  }
