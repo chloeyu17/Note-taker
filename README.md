@@ -1,11 +1,10 @@
-
 # Note Taker
 
 [![apache-2.0](https://img.shields.io/badge/license-apache--2.0-green?style=plastic)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Description
 
-  A note taking application built with Express.js
+A note taking application built with Express.js that allows the user to create, store, and delete notes.
 
 ## Table of Contents
   * [Technology](#technology)
@@ -20,21 +19,7 @@
 
 ## Technology
 
-  This application was built with the following technology:
-
-  Express.js
-
-  Node.js
-
-  JavaScript
-
-  HTML
-
-  CSS
-
-  BootStrap
-
-  NPM Inquirer  
+  This application was built with Express.js, Node.js, JavaScript, HTML, CSS, BootStrap, and NPM Inquirer  
   
 ## Installation
 
@@ -42,19 +27,19 @@
 
 ## Usage
 
-  After cloning or copying, run npm i and npm mysql in your terminal at the root to install any requirements. Run node server.js to run start the application. 
+  After cloning or copying, run npm i and npm install mysql in your terminal at the root to install any requirements. Run node server.js to run start the application at PORT: 3000. 
 
  
- ![screenshot](https://i.imgur.com/pAv5n6L.png)
+ ![screenshot](./screenshot/homepage.jpg)
  
- ![Screenshot1](https://i.imgur.com/OGb42Gj.png)
+ ![Screenshot1](./screenshot/typenote.jpg)
   
 
  ## Links
  
-  * Application URL: (https://cryptic-waters-52497.herokuapp.com/)
-  * Github Repository URL: (https://github.com/pat31477/Note-Taker)
-  * Deployed Github URL: (https://pat31477.github.io/Note-Taker/)
+  * Application URL: (https://enigmatic-stream-68475.herokuapp.com/notes)
+  * Github Repository URL: (https://github.com/chloeyu17/Note-taker)
+  * Deployed Github URL: (https://chloeyu17.github.io/Note-taker/)
   
 
 ## License
@@ -68,10 +53,7 @@
 
 ## Questions
 
-  Please email me with any question regarding this project @ pat31477@yahoo.com and connect with me on Github and LinkedIn. 
-
-  [![GitHub](https://img.shields.io/badge/Patrick%20Walker-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/pat31477) 
-  [![LinkedIn](https://img.shields.io/badge/Patrick%20Walker%20LinkedIn-Click%20Me!-grey?style=plastic&logo=LinkedIn&labelColor=blue)](https://www.linkedin.com/in/patrick-walker-926a35189/)
+  Please email me with any question regarding this project at chloeyu@icloud.com 
 
   ## Contributions
 
@@ -79,14 +61,4 @@
   
   [![GitHub](https://img.shields.io/badge/Jason%20Barbanel-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/Jbarbss)
 
-
-
-
-  
-  
-  
-  
-  
-
-  
-  
+ [![GitHub](https://img.shields.io/badge/Patrick%20Walker-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/pat31477)

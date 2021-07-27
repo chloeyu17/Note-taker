@@ -21,7 +21,6 @@ module.exports = function (app) {
         response.json(data);
     });
 
-
     // API POST Request
     app.post("/api/notes", (request, response) => {
 
@@ -47,7 +46,6 @@ module.exports = function (app) {
         // Send response
         response.json(data);
     });
-
 
     // API DELETE request
     app.delete("/api/notes/:id", (request, response) => {
